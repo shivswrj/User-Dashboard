@@ -1,0 +1,124 @@
+body{
+  padding: 0;
+  margin: 0;
+  
+}
+
+.body{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(226, 226, 249,75%);
+}
+.dashboard{
+  height: 41rem;
+  width: 56rem;
+  background-color: #262A41;
+}
+.right{
+
+}
+
+.users-container{
+  height: 90%;
+  overflow: auto;
+  scrollbar-width:thin ;
+  
+}
+
+
+.pic img{
+  border-radius: 50%;
+  width: 57px;
+}
+.user{
+  background-color: #3c3f548a;
+  cursor: pointer;
+}
+.users-container{
+  gap: 0.7rem;
+}
+.spinner{
+  height: 94%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.spinner.inner{
+  width: 3rem;
+  height: 3rem;
+}
+.uicon{
+  font-size: 2.3rem;
+    /* color: #00ffc9; */
+    color: white;
+}
+.user p{
+  color: #bbbbbb;
+    font-size: 0.80rem;
+}
+.infoicon{
+  font-size: 2.05rem;
+}
+h3{
+  margin: 0;
+}
+.details h6{
+  font-size: 1rem;
+}
+.details{
+  gap: 0.25rem;
+  display: flex;
+  flex-direction: column;
+}
+.left{
+  width: 50%
+}
+.right{
+  width: 50%;
+}
+.right h5{
+  margin: 2rem 0rem 1rem;
+}
+.selected-user{
+  font-size: 1.01rem;
+  padding-left: 1rem
+}
+.right{
+  margin: 1.3rem 1.3rem 1.3rem 1rem;
+}
+.selected-user img{
+  width: 5rem;
+}
+.null .bttn{
+  display: none;
+}
+
+@media screen and (max-width:600px) {
+  .dashboard {
+    width: 28rem;
+    margin: 10px;
+}
+.right{
+  display: none;
+  position: absolute;
+  width: 91vw;
+  height: 35rem;
+}
+.left {
+  width: 97%;
+}
+.null .bttn{
+  display: block;
+}
+.right {
+  margin: 1.3rem 1.3rem 1.3rem 0.38rem;}
+
+  .selected-user{
+    padding-left: 0rem
+  }
+}
